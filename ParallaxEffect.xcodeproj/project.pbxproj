@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D05F472041D4D8001A2FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D05F462041D4D8001A2FEA /* AppDelegate.swift */; };
+		D0D05F492041D4D8001A2FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D05F482041D4D8001A2FEA /* ViewController.swift */; };
+		D0D05F4C2041D4D8001A2FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D05F4A2041D4D8001A2FEA /* Main.storyboard */; };
+		D0D05F4E2041D4D8001A2FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D05F4D2041D4D8001A2FEA /* Assets.xcassets */; };
+		D0D05F512041D4D8001A2FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D05F4F2041D4D8001A2FEA /* LaunchScreen.storyboard */; };
+		D0D05F5C2041D4D8001A2FEA /* ParallaxEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D05F5B2041D4D8001A2FEA /* ParallaxEffectTests.swift */; };
+		D0D05F672041D4D8001A2FEA /* ParallaxEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D05F662041D4D8001A2FEA /* ParallaxEffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D05F582041D4D8001A2FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D05F3B2041D4D7001A2FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D05F422041D4D7001A2FEA;
+			remoteInfo = ParallaxEffect;
+		};
+		D0D05F632041D4D8001A2FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D05F3B2041D4D7001A2FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D05F422041D4D7001A2FEA;
+			remoteInfo = ParallaxEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0D05F432041D4D8001A2FEA /* ParallaxEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D05F462041D4D8001A2FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0D05F482041D4D8001A2FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0D05F4B2041D4D8001A2FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0D05F4D2041D4D8001A2FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D05F502041D4D8001A2FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0D05F522041D4D8001A2FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D05F572041D4D8001A2FEA /* ParallaxEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D05F5B2041D4D8001A2FEA /* ParallaxEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffectTests.swift; sourceTree = "<group>"; };
+		D0D05F5D2041D4D8001A2FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D05F622041D4D8001A2FEA /* ParallaxEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D05F662041D4D8001A2FEA /* ParallaxEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffectUITests.swift; sourceTree = "<group>"; };
+		D0D05F682041D4D8001A2FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D05F402041D4D7001A2FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F542041D4D8001A2FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F5F2041D4D8001A2FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D05F3A2041D4D7001A2FEA = {
+			isa = PBXGroup;
+			children = (
+				D0D05F452041D4D8001A2FEA /* ParallaxEffect */,
+				D0D05F5A2041D4D8001A2FEA /* ParallaxEffectTests */,
+				D0D05F652041D4D8001A2FEA /* ParallaxEffectUITests */,
+				D0D05F442041D4D8001A2FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D05F442041D4D8001A2FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D05F432041D4D8001A2FEA /* ParallaxEffect.app */,
+				D0D05F572041D4D8001A2FEA /* ParallaxEffectTests.xctest */,
+				D0D05F622041D4D8001A2FEA /* ParallaxEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D05F452041D4D8001A2FEA /* ParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D0D05F462041D4D8001A2FEA /* AppDelegate.swift */,
+				D0D05F482041D4D8001A2FEA /* ViewController.swift */,
+				D0D05F4A2041D4D8001A2FEA /* Main.storyboard */,
+				D0D05F4D2041D4D8001A2FEA /* Assets.xcassets */,
+				D0D05F4F2041D4D8001A2FEA /* LaunchScreen.storyboard */,
+				D0D05F522041D4D8001A2FEA /* Info.plist */,
+			);
+			path = ParallaxEffect;
+			sourceTree = "<group>";
+		};
+		D0D05F5A2041D4D8001A2FEA /* ParallaxEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D05F5B2041D4D8001A2FEA /* ParallaxEffectTests.swift */,
+				D0D05F5D2041D4D8001A2FEA /* Info.plist */,
+			);
+			path = ParallaxEffectTests;
+			sourceTree = "<group>";
+		};
+		D0D05F652041D4D8001A2FEA /* ParallaxEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D05F662041D4D8001A2FEA /* ParallaxEffectUITests.swift */,
+				D0D05F682041D4D8001A2FEA /* Info.plist */,
+			);
+			path = ParallaxEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D05F422041D4D7001A2FEA /* ParallaxEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D05F6B2041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffect" */;
+			buildPhases = (
+				D0D05F3F2041D4D7001A2FEA /* Sources */,
+				D0D05F402041D4D7001A2FEA /* Frameworks */,
+				D0D05F412041D4D7001A2FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxEffect;
+			productName = ParallaxEffect;
+			productReference = D0D05F432041D4D8001A2FEA /* ParallaxEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D05F562041D4D8001A2FEA /* ParallaxEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D05F6E2041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffectTests" */;
+			buildPhases = (
+				D0D05F532041D4D8001A2FEA /* Sources */,
+				D0D05F542041D4D8001A2FEA /* Frameworks */,
+				D0D05F552041D4D8001A2FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D05F592041D4D8001A2FEA /* PBXTargetDependency */,
+			);
+			name = ParallaxEffectTests;
+			productName = ParallaxEffectTests;
+			productReference = D0D05F572041D4D8001A2FEA /* ParallaxEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0D05F612041D4D8001A2FEA /* ParallaxEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D05F712041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffectUITests" */;
+			buildPhases = (
+				D0D05F5E2041D4D8001A2FEA /* Sources */,
+				D0D05F5F2041D4D8001A2FEA /* Frameworks */,
+				D0D05F602041D4D8001A2FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D05F642041D4D8001A2FEA /* PBXTargetDependency */,
+			);
+			name = ParallaxEffectUITests;
+			productName = ParallaxEffectUITests;
+			productReference = D0D05F622041D4D8001A2FEA /* ParallaxEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D05F3B2041D4D7001A2FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Peter Zaporowski";
+				TargetAttributes = {
+					D0D05F422041D4D7001A2FEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 342BF2V476;
+						ProvisioningStyle = Automatic;
+					};
+					D0D05F562041D4D8001A2FEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 342BF2V476;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0D05F422041D4D7001A2FEA;
+					};
+					D0D05F612041D4D8001A2FEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 342BF2V476;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0D05F422041D4D7001A2FEA;
+					};
+				};
+			};
+			buildConfigurationList = D0D05F3E2041D4D7001A2FEA /* Build configuration list for PBXProject "ParallaxEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D05F3A2041D4D7001A2FEA;
+			productRefGroup = D0D05F442041D4D8001A2FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D05F422041D4D7001A2FEA /* ParallaxEffect */,
+				D0D05F562041D4D8001A2FEA /* ParallaxEffectTests */,
+				D0D05F612041D4D8001A2FEA /* ParallaxEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D05F412041D4D7001A2FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D05F512041D4D8001A2FEA /* LaunchScreen.storyboard in Resources */,
+				D0D05F4E2041D4D8001A2FEA /* Assets.xcassets in Resources */,
+				D0D05F4C2041D4D8001A2FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F552041D4D8001A2FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F602041D4D8001A2FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D05F3F2041D4D7001A2FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D05F492041D4D8001A2FEA /* ViewController.swift in Sources */,
+				D0D05F472041D4D8001A2FEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F532041D4D8001A2FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D05F5C2041D4D8001A2FEA /* ParallaxEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D05F5E2041D4D8001A2FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D05F672041D4D8001A2FEA /* ParallaxEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D05F592041D4D8001A2FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D05F422041D4D7001A2FEA /* ParallaxEffect */;
+			targetProxy = D0D05F582041D4D8001A2FEA /* PBXContainerItemProxy */;
+		};
+		D0D05F642041D4D8001A2FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D05F422041D4D7001A2FEA /* ParallaxEffect */;
+			targetProxy = D0D05F632041D4D8001A2FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0D05F4A2041D4D8001A2FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D05F4B2041D4D8001A2FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D05F4F2041D4D8001A2FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D05F502041D4D8001A2FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D05F692041D4D8001A2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D05F6A2041D4D8001A2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D05F6C2041D4D8001A2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0D05F6D2041D4D8001A2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0D05F6F2041D4D8001A2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxEffect.app/ParallaxEffect";
+			};
+			name = Debug;
+		};
+		D0D05F702041D4D8001A2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxEffect.app/ParallaxEffect";
+			};
+			name = Release;
+		};
+		D0D05F722041D4D8001A2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ParallaxEffect;
+			};
+			name = Debug;
+		};
+		D0D05F732041D4D8001A2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 342BF2V476;
+				INFOPLIST_FILE = ParallaxEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterzig.ParallaxEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ParallaxEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D05F3E2041D4D7001A2FEA /* Build configuration list for PBXProject "ParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D05F692041D4D8001A2FEA /* Debug */,
+				D0D05F6A2041D4D8001A2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D05F6B2041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D05F6C2041D4D8001A2FEA /* Debug */,
+				D0D05F6D2041D4D8001A2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0D05F6E2041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D05F6F2041D4D8001A2FEA /* Debug */,
+				D0D05F702041D4D8001A2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0D05F712041D4D8001A2FEA /* Build configuration list for PBXNativeTarget "ParallaxEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D05F722041D4D8001A2FEA /* Debug */,
+				D0D05F732041D4D8001A2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D05F3B2041D4D7001A2FEA /* Project object */;
+}
